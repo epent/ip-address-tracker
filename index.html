@@ -11,44 +11,36 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="main.css" />
 
     <title>Frontend Mentor | IP Address Tracker</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <header>
-      <h1>IP Address Tracker</h1>
-    </header>
     <main>
-      <input type="text" />
-      <button type="submit">Search</button>
-      <div>
-        <section>
-          <p>IP ADDRESS</p>
-          <p>192.212.174.101</p>
-        </section>
-        <section>
-          <p>LOCATION</p>
-          <p>Brooklyn, NY 10001</p>
-        </section>
-        <section>
-          <p>TIMEZONE</p>
-          <p>UTC-05:00</p>
-        </section>
-        <section>
-          <p>ISP</p>
-          <p>SpaceX Starlink</p>
-        </section>
+      <div class="image-div">
+        <h1 class="header">IP Address Tracker</h1>
+        <div class="input-field">
+          <input type="text" />
+          <button type="submit">></button>
+        </div>
+        <div class="output-field">
+          <section>
+            <p>IP ADDRESS</p>
+            <p>192.212.174.101</p>
+          </section>
+          <section>
+            <p>LOCATION</p>
+            <p>Brooklyn, NY 10001</p>
+          </section>
+          <section>
+            <p>TIMEZONE</p>
+            <p>UTC-05:00</p>
+          </section>
+          <section>
+            <p>ISP</p>
+            <p>SpaceX Starlink</p>
+          </section>
+        </div>
       </div>
     </main>
     <footer class="attribution">

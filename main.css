@@ -1,0 +1,29 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+.image-div {
+  background-image: url(images/pattern-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .image-div {
+    background-position: center;
+  }
+}
