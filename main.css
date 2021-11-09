@@ -38,6 +38,9 @@ body {
   border-radius: 20px 0 0 20px;
   border: white;
   padding: 0;
+  color: hsl(0, 0%, 17%);
+  font-size: 18px;
+  text-indent: 20px;
 }
 
 .input-field button {
