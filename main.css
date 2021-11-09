@@ -51,6 +51,39 @@ body {
   padding: 0;
 }
 
+.output-field {
+  box-sizing: border-box;
+  margin: 20px;
+  height: auto;
+  width: 330px;
+  background-color: white;
+  border: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px;
+}
+
+.output-filed__section {
+  margin: 15px;
+}
+
+.output-field__header {
+  margin: 0;
+  padding: 4px;
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.output-field__output {
+  margin: 0;
+  padding: 4px;
+  color: hsl(0, 0%, 17%);
+  font-size: 18px;
+  font-weight: 500;
+}
+
 @media (max-width: 600px) {
   .image-div {
     background-position: center;
