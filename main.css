@@ -40,7 +40,7 @@ body {
   padding: 0;
   color: hsl(0, 0%, 17%);
   font-size: 18px;
-  text-indent: 20px;
+  text-indent: 25px;
 }
 
 .input-field button {
@@ -90,5 +90,47 @@ body {
 @media (max-width: 600px) {
   .image-div {
     background-position: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    font-size: 38px;
+    font-weight: 400;
+  }
+
+  .input-field input {
+    width: 570px;
+  }
+
+  .output-field {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+
+  .output-filed__section {
+    text-align: left;
+    padding-left: 30px;
+    margin: 30px 23px;
+    border-left: 1px solid hsl(0, 0%, 89%);
+  }
+
+  .output-filed__section:first-child {
+    border: none;
+    padding-left: 10px;
+  }
+
+  .output-field__header {
+    font-size: 15px;
+  }
+
+  .output-field__output {
+    margin: 0;
+    padding: 4px;
+    color: hsl(0, 0%, 17%);
+    font-size: 25px;
+    font-weight: 500;
   }
 }
