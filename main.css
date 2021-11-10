@@ -134,3 +134,7 @@ body {
     font-weight: 500;
   }
 }
+
+#map {
+  height: 700px;
+}
