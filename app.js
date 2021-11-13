@@ -29,11 +29,13 @@ let marker = L.marker([51.5, -0.09]).addTo(mymap);
 function searchCity() {
   let api_key = "at_iQOJlWwcqia8VYuVYdzrFPn1WzAYY";
   let ip = enteredIP.value.toString();
+  enteredIP.value = "Loading the map...";
 
   const fetchData = async () => {
     const response = await fetch(
       `https://geo.ipify.org/api/v2/country,city?apiKey=${api_key}&ipAddress=${ip}`
     );
+
     const fetchedData = await response.json();
 
     ipAddress.textContent = fetchedData.ip;
@@ -47,10 +49,10 @@ function searchCity() {
       fetchedData.location.lat,
       fetchedData.location.lng,
     ]).addTo(mymap);
+
+    enteredIP.value = "";
   };
   fetchData();
-
-  enteredIP.value = "";
 }
 
 searchButton[0].addEventListener("click", searchCity);
