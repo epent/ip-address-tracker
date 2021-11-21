@@ -1,9 +1,7 @@
 "use strict";
 
 const searchButton = document.getElementsByTagName("button");
-console.log(searchButton);
 const enteredIP = document.querySelector("input");
-console.log(enteredIP);
 const ipAddress = document.querySelectorAll(".output-field__output")[0];
 const locationAddress = document.querySelectorAll(".output-field__output")[1];
 const timeZone = document.querySelectorAll(".output-field__output")[2];
