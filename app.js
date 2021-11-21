@@ -3,6 +3,7 @@
 const searchButton = document.getElementsByTagName("button");
 console.log(searchButton);
 const enteredIP = document.querySelector("input");
+console.log(enteredIP);
 const ipAddress = document.querySelectorAll(".output-field__output")[0];
 const locationAddress = document.querySelectorAll(".output-field__output")[1];
 const timeZone = document.querySelectorAll(".output-field__output")[2];
@@ -20,7 +21,7 @@ L.tileLayer(
     tileSize: 512,
     zoomOffset: -1,
     accessToken:
-      "pk.eyJ1IjoiZXBlbnQiLCJhIjoiY2t2dGc2NjRxMGQ4YzJ3anRxNDZoNjJpeSJ9.V6jxm3rLXRVwH5tzsL9f3Q",
+      "pk.eyJ1IjoiZXBlbnQiLCJhIjoiY2t3OTJqdzY5MHp2bjJ2cGFyN2d0dTN0eiJ9.m_Ln4A2MyNa_0Xwqk_CbtA",
   }
 ).addTo(mymap);
 
