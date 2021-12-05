@@ -18,5 +18,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/ip-tracker-with-leaflet-and-ipify-apis--sKpMtnHd](https://www.frontendmentor.io/solutions/ip-tracker-with-leaflet-and-ipify-apis--sKpMtnHd)
 - Live Site URL: [https://epent.github.io/ip-address-tracker/](https://epent.github.io/ip-address-tracker/)
