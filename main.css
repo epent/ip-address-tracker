@@ -12,6 +12,14 @@ body {
   margin: 0;
 }
 
+main {
+  height: 98vh;
+}
+
+footer {
+  padding-top: 5px;
+}
+
 .image-div {
   background-image: url(images/pattern-bg.png);
   background-size: cover;
@@ -100,7 +108,7 @@ body {
 }
 
 #map {
-  height: 500px;
+  height: calc(100% - 300px);
   z-index: 5;
 }
 
@@ -151,11 +159,6 @@ body {
     color: hsl(0, 0%, 17%);
     font-size: 1.25rem;
     font-weight: 500;
-  }
-
-  #map {
-    height: 1050px;
-    z-index: 5;
   }
 }
 
