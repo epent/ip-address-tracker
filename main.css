@@ -27,6 +27,7 @@ body {
   font-weight: 400;
   font-size: 26px;
   padding: 10px;
+  margin: 15px;
 }
 
 .input-field {
@@ -64,7 +65,7 @@ body {
 .output-field {
   box-sizing: border-box;
   margin: 20px;
-  height: auto;
+  height: 300px;
   width: 330px;
   background-color: white;
   border: white;
@@ -121,10 +122,11 @@ body {
 
   .output-field {
     width: 75%;
+    height: 160px;
     display: flex;
     justify-content: space-between;
     margin: 40px;
-    top: 190px;
+    top: 170px;
   }
 
   .output-filed__section {
@@ -147,12 +149,18 @@ body {
     margin: 0;
     padding: 4px;
     color: hsl(0, 0%, 17%);
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 500;
   }
 
   #map {
     height: 1050px;
     z-index: 5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .output-field__output {
+    font-size: 1.5rem;
   }
 }
