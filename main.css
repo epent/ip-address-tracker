@@ -172,6 +172,11 @@ footer {
   display: none;
 }
 
-.leaflet-top, .leaflet-left {
+.leaflet-top,
+.leaflet-left {
   display: none;
+}
+
+.leaflet-top {
+  top: 200px;
 }
