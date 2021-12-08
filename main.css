@@ -171,3 +171,7 @@ footer {
 .leaflet-control-container {
   display: none;
 }
+
+.leaflet-top, .leaflet-left {
+  display: none;
+}
