@@ -7,7 +7,10 @@ const locationAddress = document.querySelectorAll(".output-field__output")[1];
 const timeZone = document.querySelectorAll(".output-field__output")[2];
 const isp = document.querySelectorAll(".output-field__output")[3];
 
-let mymap = L.map("map").setView([34.04915, -118.09462], 13);
+let mymap = L.map("map", { zoomControl: false }).setView(
+  [34.04915, -118.09462],
+  13
+);
 
 L.tileLayer(
   "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",

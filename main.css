@@ -168,8 +168,6 @@ footer {
   }
 }
 
-.leaflet-control-zoom,
-.leaflet-bar,
-.leaflet-control {
+.leaflet-control-container {
   display: none;
 }
