@@ -83,7 +83,7 @@ footer {
   padding: 8px;
   position: absolute;
   top: 150px;
-  z-index: 10;
+  z-index: 1200;
 }
 
 .output-filed__section {
